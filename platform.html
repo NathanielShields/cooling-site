@@ -262,7 +262,7 @@
             <li><a href="solutions.html">Solutions</a></li>
             <li><a href="sensing.html">Sensing Platform</a></li>
             <li><a href="platform.html" class="active">Full Platform</a></li>
-            <li><a href="#specs" class="nav-cta">Get Started →</a></li>
+            <li><a href="#contact" class="nav-cta">Get Started &#8594;</a></li>
         </ul>
         <div class="nav-hamburger"><span></span><span></span><span></span></div>
     </nav>
@@ -674,6 +674,63 @@
                     <a href="https://doi.org/10.1007/s00484-022-02370-7" target="_blank">Int J Biometeorol →</a>
                 </li>
             </ul>
+        </div>
+    </section>
+
+    <!-- ── Contact / Get Started ── -->
+    <section id="contact" class="section"
+        style="background:linear-gradient(160deg,#dbeafe 0%,#f0f9ff 60%,#fff7ed 100%);padding-top:5rem;padding-bottom:5rem;">
+        <div class="section-inner" style="max-width:720px;">
+            <span class="section-label reveal">Get Started</span>
+            <h2 class="section-title reveal">Inquire About Deployment</h2>
+            <p class="reveal" style="margin-bottom:2.5rem;">Tell us about your worksite and we will follow up with a
+                tailored deployment proposal, pricing, and pilot timeline. Responses typically within 48 hours.</p>
+            <form id="contact-form" class="reveal" action="https://formsubmit.co/your@email.com" method="POST"
+                style="display:flex;flex-direction:column;gap:1.25rem;">
+                <input type="hidden" name="_subject" value="CoolWork Inquiry">
+                <input type="hidden" name="_captcha" value="false">
+                <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.25rem;">
+                    <div>
+                        <label
+                            style="display:block;font-size:0.8rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--text-muted);margin-bottom:0.4rem;">Name</label>
+                        <input type="text" name="name" required placeholder="Your full name"
+                            style="width:100%;padding:0.75rem 1rem;border:1px solid var(--color-border-light);border-radius:var(--radius-sm);font-family:var(--font-body);font-size:0.95rem;background:white;color:var(--text-primary);outline:none;transition:border-color var(--transition-fast);"
+                            onfocus="this.style.borderColor='var(--color-accent)'"
+                            onblur="this.style.borderColor='var(--color-border-light)'">
+                    </div>
+                    <div>
+                        <label
+                            style="display:block;font-size:0.8rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--text-muted);margin-bottom:0.4rem;">Organization</label>
+                        <input type="text" name="organization" placeholder="Company / NGO / Government"
+                            style="width:100%;padding:0.75rem 1rem;border:1px solid var(--color-border-light);border-radius:var(--radius-sm);font-family:var(--font-body);font-size:0.95rem;background:white;color:var(--text-primary);outline:none;transition:border-color var(--transition-fast);"
+                            onfocus="this.style.borderColor='var(--color-accent)'"
+                            onblur="this.style.borderColor='var(--color-border-light)'">
+                    </div>
+                </div>
+                <div>
+                    <label
+                        style="display:block;font-size:0.8rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--text-muted);margin-bottom:0.4rem;">Email</label>
+                    <input type="email" name="email" required placeholder="you@organization.com"
+                        style="width:100%;padding:0.75rem 1rem;border:1px solid var(--color-border-light);border-radius:var(--radius-sm);font-family:var(--font-body);font-size:0.95rem;background:white;color:var(--text-primary);outline:none;transition:border-color var(--transition-fast);"
+                        onfocus="this.style.borderColor='var(--color-accent)'"
+                        onblur="this.style.borderColor='var(--color-border-light)'">
+                </div>
+                <div>
+                    <label
+                        style="display:block;font-size:0.8rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--text-muted);margin-bottom:0.4rem;">Worksite
+                        Details</label>
+                    <textarea name="message" rows="4"
+                        placeholder="Number of workers, location, sector (construction / agriculture / etc.), current heat challenges..."
+                        style="width:100%;padding:0.75rem 1rem;border:1px solid var(--color-border-light);border-radius:var(--radius-sm);font-family:var(--font-body);font-size:0.95rem;background:white;color:var(--text-primary);outline:none;resize:vertical;transition:border-color var(--transition-fast);"
+                        onfocus="this.style.borderColor='var(--color-accent)'"
+                        onblur="this.style.borderColor='var(--color-border-light)'"></textarea>
+                </div>
+                <div>
+                    <button type="submit" class="btn btn-primary" style="font-size:1rem;padding:0.9rem 2rem;">
+                        Submit Inquiry &#8594;
+                    </button>
+                </div>
+            </form>
         </div>
     </section>
 
